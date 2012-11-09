@@ -1,0 +1,3 @@
+[submodule "TCWeiBoSDKDemo/TCWeiBoSDK"]
+	path = TCWeiBoSDKDemo/TCWeiBoSDK
+	url = git@github.com:driventokill/TCWeiBoSDK.git
