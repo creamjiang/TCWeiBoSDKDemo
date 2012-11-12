@@ -53,7 +53,7 @@
 		B7898B9315FDF50200A5D5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7898B9215FDF50200A5D5E5 /* AppDelegate.m */; };
 		B7C3EDA815FEE76400C9B7B1 /* Language.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7C3EDAA15FEE76400C9B7B1 /* Language.strings */; };
 		B7D153041601B948006D2426 /* UITableViewFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D153031601B948006D2426 /* UITableViewFriendCell.m */; };
-		B7D153081601BD24006D2426 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D153071601BD22006D2426 /* ImageDownloader.m */; };
+		B7D153081601BD24006D2426 /* TCWBImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D153071601BD22006D2426 /* TCWBImageDownloader.m */; };
 		B8123FF41602D12A003EF998 /* AuthorizeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8123FF31602D12A003EF998 /* AuthorizeDelegate.m */; };
 		B86EB33B15F5D2B200573C9A /* comopose#@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86EB30A15F5D2B200573C9A /* comopose#@2x.png */; };
 		B86EB33C15F5D2B200573C9A /* compose#.png in Resources */ = {isa = PBXBuildFile; fileRef = B86EB30B15F5D2B200573C9A /* compose#.png */; };
@@ -177,8 +177,8 @@
 		B7C3EDAC15FF068C00C9B7B1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Language.strings"; sourceTree = "<group>"; };
 		B7D153021601B948006D2426 /* UITableViewFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITableViewFriendCell.h; path = RelayModule/UITableViewFriendCell.h; sourceTree = "<group>"; };
 		B7D153031601B948006D2426 /* UITableViewFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableViewFriendCell.m; path = RelayModule/UITableViewFriendCell.m; sourceTree = "<group>"; };
-		B7D153061601BD21006D2426 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
-		B7D153071601BD22006D2426 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		B7D153061601BD21006D2426 /* TCWBImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWBImageDownloader.h; sourceTree = "<group>"; };
+		B7D153071601BD22006D2426 /* TCWBImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWBImageDownloader.m; sourceTree = "<group>"; };
 		B7D4503715FDDA5E00544BB8 /* key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = key.h; path = RelayModule/key.h; sourceTree = "<group>"; };
 		B8123FF21602D12A003EF998 /* AuthorizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeDelegate.h; sourceTree = "<group>"; };
 		B8123FF31602D12A003EF998 /* AuthorizeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeDelegate.m; sourceTree = "<group>"; };
@@ -356,8 +356,8 @@
 				5E9AB48715F6C74000B08A55 /* AttachedPictureView.m */,
 				B8FE691215F730DA008234D5 /* FileStreame.h */,
 				B8FE691315F730DA008234D5 /* FileStreame.m */,
-				B7D153061601BD21006D2426 /* ImageDownloader.h */,
-				B7D153071601BD22006D2426 /* ImageDownloader.m */,
+				B7D153061601BD21006D2426 /* TCWBImageDownloader.h */,
+				B7D153071601BD22006D2426 /* TCWBImageDownloader.m */,
 				B7D4503715FDDA5E00544BB8 /* key.h */,
 				B8FE691515F730DA008234D5 /* pinyin.c */,
 				B8FE691615F730DA008234D5 /* pinyin.h */,
@@ -636,7 +636,7 @@
 				5EC4FAA416010569004A327B /* Reachability.m in Sources */,
 				5E0E96751602849000DABAC4 /* RegexKitLite.m in Sources */,
 				B7D153041601B948006D2426 /* UITableViewFriendCell.m in Sources */,
-				B7D153081601BD24006D2426 /* ImageDownloader.m in Sources */,
+				B7D153081601BD24006D2426 /* TCWBImageDownloader.m in Sources */,
 				B8123FF41602D12A003EF998 /* AuthorizeDelegate.m in Sources */,
 				E8F93400161457C900B43D05 /* TCWBRepeatViewController.m in Sources */,
 				32DD21D9164CF47500DF2AFC /* JSONKit.m in Sources */,
